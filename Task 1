@@ -1,0 +1,15 @@
+#include <stdio.h>
+        int bazm(int num){
+               for(int i = 0 ;i <= 10; i++){
+                   printf("%d * %d = %d\n",num ,i , num * i);
+                   } 
+                }
+        int main(){
+                int number ;
+                printf("Enter the number");
+                scanf("%d",&number);
+                bazm(number);
+                return 0;
+
+
+            }
